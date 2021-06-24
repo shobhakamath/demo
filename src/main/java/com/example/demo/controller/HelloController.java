@@ -15,6 +15,6 @@ public class HelloController {
     @GetMapping("/healthCheck1")
     @ResponseStatus(HttpStatus.OK)
     public String healthCheck1() {
-        return "healthy";
+        return "healthy123132";
     }
 }
