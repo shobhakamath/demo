@@ -20,8 +20,6 @@ jobs:
   # uses: CDNievas/heroku-action@c9cf9c85571e67583e44ec92c0d1113f66b0e838
       uses: AkhileshNS/heroku-deploy@v3.8.8
       with:
-        java-version: '11'
-        distribution: 'adopt'
         heroku_api_key: ${{secrets.HEROKU_KEY}}
         heroku_email: ${{secrets.HEROKU_EMAILID}} 
         heroku_app_name: ${{secrets.HEROKU_APPNAME}}
