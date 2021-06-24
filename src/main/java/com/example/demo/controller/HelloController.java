@@ -12,4 +12,9 @@ public class HelloController {
     public String healthCheck() {
         return "healthy";
     }
+    @GetMapping("/healthCheck1")
+    @ResponseStatus(HttpStatus.OK)
+    public String healthCheck1() {
+        return "healthy";
+    }
 }
