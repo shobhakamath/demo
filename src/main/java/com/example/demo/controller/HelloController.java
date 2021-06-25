@@ -17,4 +17,10 @@ public class HelloController {
     public String healthCheck1() {
         return "healthy123132";
     }
+
+    @GetMapping("/healthCheck2")
+    @ResponseStatus(HttpStatus.OK)
+    public String healthCheck2() {
+        return "healthyaadsasdasdads";
+    }
 }
